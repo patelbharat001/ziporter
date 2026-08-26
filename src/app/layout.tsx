@@ -4,7 +4,6 @@ import { JsonLd } from "@/components/shared/json-ld";
 import Nav from "@/components/nav";
 import Footer from "@/components/footer";
 import "./globals.css";
-import React from "react";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -39,7 +38,7 @@ const organizationJsonLd = {
   url: "https://ziporter.example.com",
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
