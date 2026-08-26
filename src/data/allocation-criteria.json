@@ -1,0 +1,12 @@
+[
+  { "label": "Serviceability", "description": "Is this carrier deliverable to the destination pincode?" },
+  { "label": "Delivery SLA", "description": "Expected transit time for this route and carrier." },
+  { "label": "Cost per Shipment", "description": "Carrier rate card for this weight, zone, and mode." },
+  { "label": "Carrier Performance Score", "description": "Historical on-time delivery rate for this lane." },
+  { "label": "COD Availability", "description": "Whether the carrier supports cash-on-delivery on this route." },
+  { "label": "Weight & Dimension Slabs", "description": "Carrier-specific slab limits and volumetric rules." },
+  { "label": "Return Risk Score", "description": "Likelihood of RTO based on pincode and category history." },
+  { "label": "Real-Time Carrier Capacity", "description": "Current load and pickup availability for the carrier." },
+  { "label": "Customer Pincode History", "description": "Past delivery success at this exact address/pincode." },
+  { "label": "Fragile / Special Handling Tags", "description": "Whether the shipment needs special handling the carrier supports." }
+]

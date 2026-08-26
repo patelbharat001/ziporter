@@ -1,0 +1,67 @@
+[
+  {
+    "slug": "domestic-shipping",
+    "name": "Domestic Shipping",
+    "shortName": "Domestic",
+    "summary": "Nationwide courier allocation across every pincode you sell to.",
+    "heroDescription": "Route every domestic order to the carrier that will actually deliver it fastest and cheapest — automatically, at checkout-to-manifest speed.",
+    "outcomes": [
+      "Lower average cost per shipment through carrier-mix optimization",
+      "Fewer failed deliveries via serviceability-aware allocation",
+      "Single manifest and pickup workflow across all carriers"
+    ],
+    "icon": "Truck"
+  },
+  {
+    "slug": "b2b-logistics",
+    "name": "B2B Logistics",
+    "shortName": "B2B",
+    "summary": "Bulk, palletized, and enterprise-to-enterprise freight movement.",
+    "heroDescription": "Move bulk orders between warehouses, distributors, and retail partners with the same visibility you expect from parcel shipments.",
+    "outcomes": [
+      "Consolidated freight booking across LTL and FTL partners",
+      "Warehouse-to-warehouse tracking on one timeline",
+      "Reconciliation-ready documentation for every consignment"
+    ],
+    "icon": "Boxes"
+  },
+  {
+    "slug": "reverse-logistics",
+    "name": "Reverse Logistics",
+    "shortName": "Returns",
+    "summary": "Returns, exchanges, and reverse pickups without the manual follow-up.",
+    "heroDescription": "Automate reverse pickup scheduling, quality checks, and refund-trigger events so returns stop draining your ops team's time.",
+    "outcomes": [
+      "Automated reverse pickup scheduling on customer request",
+      "Return-reason analytics to reduce repeat RTOs",
+      "Faster refund/exchange trigger events for your commerce stack"
+    ],
+    "icon": "RotateCcw"
+  },
+  {
+    "slug": "hyperlocal",
+    "name": "Hyperlocal Delivery",
+    "shortName": "Hyperlocal",
+    "summary": "Same-day and city-level fulfillment for time-sensitive orders.",
+    "heroDescription": "Plug into hyperlocal fleets for same-day and scheduled-slot delivery in metro and tier-1 cities, orchestrated from the same dashboard as your national shipments.",
+    "outcomes": [
+      "Same-day and slot-based delivery windows",
+      "Live rider tracking alongside standard courier shipments",
+      "One dashboard for both hyperlocal and national fulfillment"
+    ],
+    "icon": "Zap"
+  },
+  {
+    "slug": "international-shipping",
+    "name": "International Shipping",
+    "shortName": "International",
+    "summary": "Cross-border courier orchestration with customs-ready documentation.",
+    "heroDescription": "Extend the same allocation and visibility engine to cross-border shipments, with customs paperwork and duty handling built into the workflow.",
+    "outcomes": [
+      "Customs-ready documentation generated per shipment",
+      "Landed-cost visibility before dispatch",
+      "Consolidated tracking across international carrier partners"
+    ],
+    "icon": "Globe"
+  }
+]

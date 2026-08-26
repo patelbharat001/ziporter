@@ -1,0 +1,11 @@
+[
+  { "step": 1, "title": "Order Ingestion", "description": "Orders flow in from your storefront, marketplace, or ERP via API or connector." },
+  { "step": 2, "title": "Smart Carrier Allocation", "description": "The allocation engine scores every eligible carrier and assigns the best match." },
+  { "step": 3, "title": "Label & Manifest Generation", "description": "Shipping labels and carrier manifests are generated automatically." },
+  { "step": 4, "title": "Pickup Scheduling", "description": "Pickup requests are scheduled with the assigned carrier for your warehouse." },
+  { "step": 5, "title": "In-Transit Tracking", "description": "Every shipment status update is normalized into one tracking timeline." },
+  { "step": 6, "title": "NDR & Exception Management", "description": "Failed delivery attempts and exceptions surface for action before they become RTOs." },
+  { "step": 7, "title": "Delivery Confirmation", "description": "Proof of delivery is captured and synced back to your system." },
+  { "step": 8, "title": "Reverse Pickup", "description": "Return and exchange pickups are scheduled automatically when triggered." },
+  { "step": 9, "title": "Analytics & Reconciliation", "description": "Cost, performance, and COD reconciliation data roll up into reporting." }
+]

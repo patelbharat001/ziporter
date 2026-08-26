@@ -1,0 +1,8 @@
+[
+  { "name": "Shopify", "category": "E-commerce", "description": "Sync orders and push tracking updates automatically." },
+  { "name": "WooCommerce", "category": "E-commerce", "description": "Native plugin for order sync and status webhooks." },
+  { "name": "Magento", "category": "E-commerce", "description": "Order ingestion and fulfillment status sync." },
+  { "name": "Custom ERP / WMS", "category": "Enterprise", "description": "Connect any internal system via REST API and webhooks." },
+  { "name": "Marketplaces", "category": "Marketplace", "description": "Consolidated order pull from major online marketplaces." },
+  { "name": "Accounting & Reconciliation", "category": "Finance", "description": "Export shipment and COD reconciliation data to your finance stack." }
+]

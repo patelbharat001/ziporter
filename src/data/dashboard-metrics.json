@@ -1,0 +1,9 @@
+{
+  "headline": "Every shipment, one dashboard.",
+  "cards": [
+    { "label": "Orders Processed Today", "value": "4,218", "trend": "+12% vs. yesterday" },
+    { "label": "In-Transit Shipments", "value": "9,842", "trend": "Across XX+ carriers" },
+    { "label": "NDR Resolution Rate", "value": "91.4%", "trend": "+3.1pt this month" },
+    { "label": "Average Delivery TAT", "value": "2.6 days", "trend": "-0.4 days this quarter" }
+  ]
+}

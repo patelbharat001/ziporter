@@ -1,0 +1,5 @@
+[
+  { "quote": "Consolidating our carrier logins into one allocation engine cut the manual routing work our ops team used to do every morning.", "role": "Operations Lead", "context": "D2C Fashion Brand" },
+  { "quote": "The reverse logistics workflow alone paid for the switch — pickups that used to take three calls to schedule now happen automatically.", "role": "Supply Chain Manager", "context": "Consumer Electronics" },
+  { "quote": "Having one dashboard for both our national and hyperlocal fulfillment made it much easier to spot where deliveries were slipping.", "role": "Head of Fulfillment", "context": "Grocery & FMCG" }
+]

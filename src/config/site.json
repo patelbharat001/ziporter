@@ -1,0 +1,66 @@
+{
+  "name": "Ziporter",
+  "tagline": "Enterprise logistics. Simplified.",
+  "altHeadline": "One platform to orchestrate every shipment.",
+  "description": "Ziporter is the courier aggregation and logistics orchestration platform for Indian enterprises — one API and one dashboard to allocate, ship, track, and reconcile every order.",
+  "cta": {
+    "primary": { "label": "Talk to a Logistics Expert", "href": "/contact" },
+    "secondary": { "label": "Request a Demo", "href": "/request-demo" },
+    "tertiary": { "label": "Track Shipment", "href": "/track" }
+  },
+  "stats": {
+    "carriers": "XX+",
+    "pincodes": "XX,XXX+",
+    "uptime": "99.9%"
+  },
+  "contact": {
+    "salesEmail": "sales@ziporter.example.com",
+    "supportEmail": "support@ziporter.example.com",
+    "phone": "+91 XXXXX XXXXX"
+  },
+  "social": [
+    { "label": "LinkedIn", "href": "#" },
+    { "label": "X", "href": "#" }
+  ],
+  "nav": {
+    "solutions": [
+      { "label": "Domestic Shipping", "href": "/solutions/domestic-shipping", "description": "Nationwide courier allocation and delivery" },
+      { "label": "B2B Logistics", "href": "/solutions/b2b-logistics", "description": "Bulk and enterprise-to-enterprise freight" },
+      { "label": "Reverse Logistics", "href": "/solutions/reverse-logistics", "description": "Returns, exchanges, and pickups" },
+      { "label": "Hyperlocal Delivery", "href": "/solutions/hyperlocal", "description": "Same-day and city-level fulfillment" },
+      { "label": "International Shipping", "href": "/solutions/international-shipping", "description": "Cross-border courier orchestration" }
+    ],
+    "links": [
+      { "label": "Industries", "href": "/industries" },
+      { "label": "Integrations", "href": "/integrations" },
+      { "label": "Resources", "href": "/resources" },
+      { "label": "About", "href": "/about" }
+    ]
+  },
+  "footer": {
+    "product": [
+      { "label": "Solutions", "href": "/solutions" },
+      { "label": "Industries", "href": "/industries" },
+      { "label": "Integrations", "href": "/integrations" },
+      { "label": "API", "href": "/api" },
+      { "label": "Enterprise Dashboard", "href": "/enterprise-dashboard" }
+    ],
+    "solutions": [
+      { "label": "Domestic Shipping", "href": "/solutions/domestic-shipping" },
+      { "label": "B2B Logistics", "href": "/solutions/b2b-logistics" },
+      { "label": "Reverse Logistics", "href": "/solutions/reverse-logistics" },
+      { "label": "Hyperlocal Delivery", "href": "/solutions/hyperlocal" },
+      { "label": "International Shipping", "href": "/solutions/international-shipping" }
+    ],
+    "company": [
+      { "label": "About", "href": "/about" },
+      { "label": "Resources", "href": "/resources" },
+      { "label": "Contact", "href": "/contact" }
+    ],
+    "getStarted": [
+      { "label": "Request a Demo", "href": "/request-demo" },
+      { "label": "Track Shipment", "href": "/track" },
+      { "label": "Login", "href": "/login" }
+    ]
+  }
+}

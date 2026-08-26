@@ -1,0 +1,8 @@
+[
+  { "slug": "ecommerce-d2c", "name": "E-commerce & D2C", "description": "High-volume order fulfillment with COD, NDR, and RTO management built in.", "icon": "ShoppingCart" },
+  { "slug": "fashion-apparel", "name": "Fashion & Apparel", "description": "High-return-rate categories with reverse logistics as a first-class workflow.", "icon": "Shirt" },
+  { "slug": "electronics", "name": "Electronics & Accessories", "description": "High-value, fragile-handling shipments with serialized tracking.", "icon": "Smartphone" },
+  { "slug": "health-wellness", "name": "Health & Wellness", "description": "Temperature-conscious and time-sensitive delivery windows.", "icon": "HeartPulse" },
+  { "slug": "fmcg-grocery", "name": "FMCG & Grocery", "description": "High-frequency, low-margin shipments where per-order cost control matters most.", "icon": "ShoppingBasket" },
+  { "slug": "manufacturing", "name": "Enterprise Manufacturing", "description": "B2B and bulk freight movement between plants, warehouses, and distributors.", "icon": "Factory" }
+]
