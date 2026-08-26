@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Manrope, Inter, Geist_Mono } from "next/font/google";
 import { JsonLd } from "@/components/shared/json-ld";
+import Nav from "@/components/nav";
+import Footer from "@/components/footer";
 import "./globals.css";
 
 const manrope = Manrope({
@@ -44,7 +46,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-full flex flex-col font-sans">
         <JsonLd data={organizationJsonLd} />
-        {children}
+        <Nav />
+        <div className="flex-1">{children}</div>
+        <Footer />
       </body>
     </html>
   );

@@ -1,17 +1,50 @@
-import Link from "next/link";
-import { Truck } from "lucide-react";
+import Link from "next/link"
+import { Logo } from "@/components/logo"
+import { site } from "@/lib/content"
+
+function FooterColumn({ title, links }: { title: string; links: { label: string; href: string }[] }) {
+  return (
+    <div>
+      <div className="font-heading text-sm font-semibold text-primary-foreground">{title}</div>
+      <ul className="mt-3 space-y-2">
+        {links.map((link) => (
+          <li key={link.href}>
+            <Link href={link.href} className="text-sm text-primary-foreground/70 hover:text-primary-foreground">
+              {link.label}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )
+}
 
 export default function Footer() {
   return (
-    <footer className="bg-[#020202] border-t border-white/5 py-12 px-6">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-        <div className="flex items-center gap-2 text-white font-bold text-xl"><Truck className="text-rose-400" /> Ziporter</div>
-        <div className="text-white/40 text-sm">© 2026 Ziporter. Corporate courier aggregator.</div>
-        <div className="flex gap-6 text-sm text-white/60">
-          <Link href="#" className="hover:text-white">Privacy</Link>
-          <Link href="#" className="hover:text-white">Terms</Link>
+    <footer className="mt-auto bg-primary text-primary-foreground">
+      <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-5">
+          <div className="col-span-2 md:col-span-1">
+            <Logo variant="mono-light" />
+            <p className="mt-3 text-sm text-primary-foreground/70">{site.description}</p>
+            <div className="mt-4 flex gap-3">
+              {site.social.map((s) => (
+                <a key={s.label} href={s.href} className="text-xs text-primary-foreground/70 hover:text-primary-foreground">
+                  {s.label}
+                </a>
+              ))}
+            </div>
+          </div>
+          <FooterColumn title="Product" links={site.footer.product} />
+          <FooterColumn title="Solutions" links={site.footer.solutions} />
+          <FooterColumn title="Company" links={site.footer.company} />
+          <FooterColumn title="Get Started" links={site.footer.getStarted} />
+        </div>
+        <div className="mt-12 flex flex-col gap-3 border-t border-primary-foreground/15 pt-6 text-xs text-primary-foreground/60 sm:flex-row sm:items-center sm:justify-between">
+          <span>© {new Date().getFullYear()} Ziporter. All rights reserved.</span>
+          <span>{site.contact.salesEmail} · {site.contact.phone}</span>
         </div>
       </div>
     </footer>
-  );
+  )
 }
