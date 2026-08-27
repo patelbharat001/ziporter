@@ -29,6 +29,7 @@ jobs:
           rm -rf docs
           cp -r out docs
           rm -rf out
+          touch docs/.nojekyll
 
       - name: Commit docs folder
         run: |
