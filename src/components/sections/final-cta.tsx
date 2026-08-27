@@ -15,7 +15,7 @@ export default function FinalCta() {
           <Button size="lg" variant="secondary" render={<Link href={site.cta.primary.href} />}>
             {site.cta.primary.label}
           </Button>
-          <Button size="lg" variant="outline" className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10" render={<Link href={site.cta.secondary.href} />}>
+          <Button size="lg" variant="outline" className="border-primary-foreground/30 bg-transparent text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground" render={<Link href={site.cta.secondary.href} />}>
             {site.cta.secondary.label}
           </Button>
         </div>

@@ -84,22 +84,43 @@ export default function Nav() {
         <div className="border-t border-border bg-background lg:hidden">
           <div className="flex flex-col gap-1 px-4 py-4">
             {site.nav.solutions.map((s) => (
-              <Link key={s.href} href={s.href} className="rounded-lg px-3 py-2 text-sm hover:bg-muted">
+              <Link
+                key={s.href}
+                href={s.href}
+                className="rounded-lg px-3 py-2 text-sm hover:bg-muted"
+                onClick={() => setMobileOpen(false)}
+              >
                 {s.label}
               </Link>
             ))}
             {site.nav.links.map((link) => (
-              <Link key={link.href} href={link.href} className="rounded-lg px-3 py-2 text-sm hover:bg-muted">
+              <Link
+                key={link.href}
+                href={link.href}
+                className="rounded-lg px-3 py-2 text-sm hover:bg-muted"
+                onClick={() => setMobileOpen(false)}
+              >
                 {link.label}
               </Link>
             ))}
-            <Link href="/login" className="rounded-lg px-3 py-2 text-sm hover:bg-muted">
+            <Link
+              href="/login"
+              className="rounded-lg px-3 py-2 text-sm hover:bg-muted"
+              onClick={() => setMobileOpen(false)}
+            >
               Login
             </Link>
-            <Link href={site.cta.tertiary.href} className="rounded-lg px-3 py-2 text-sm hover:bg-muted">
+            <Link
+              href={site.cta.tertiary.href}
+              className="rounded-lg px-3 py-2 text-sm hover:bg-muted"
+              onClick={() => setMobileOpen(false)}
+            >
               {site.cta.tertiary.label}
             </Link>
-            <Button render={<Link href={site.cta.secondary.href} />} className="mt-2">
+            <Button
+              render={<Link href={site.cta.secondary.href} onClick={() => setMobileOpen(false)} />}
+              className="mt-2"
+            >
               {site.cta.secondary.label}
             </Button>
           </div>
