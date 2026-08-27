@@ -2,6 +2,7 @@ import Hero from "@/components/sections/hero"
 import TrustStrip from "@/components/sections/trust-strip"
 import ValueProps from "@/components/sections/value-props"
 import SolutionsGrid from "@/components/sections/solutions-grid"
+import AllocationEngine from "@/components/sections/allocation-engine"
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <TrustStrip />
       <ValueProps />
       <SolutionsGrid />
+      <AllocationEngine />
       <div className="mx-auto max-w-6xl px-4 py-24 text-center">
         <h1 className="font-heading text-3xl font-bold text-foreground">Homepage sections coming in Task 25</h1>
       </div>
