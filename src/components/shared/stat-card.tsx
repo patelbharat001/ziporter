@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
+import { useRef } from "react"
 import { motion, useReducedMotion, useInView } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 
@@ -16,11 +16,7 @@ export function StatCard({
   const ref = useRef<HTMLDivElement>(null)
   const inView = useInView(ref, { once: true, margin: "-40px" })
   const reduceMotion = useReducedMotion()
-  const [show, setShow] = useState(!!reduceMotion)
-
-  useEffect(() => {
-    if (inView) setShow(true)
-  }, [inView])
+  const show = reduceMotion || inView
 
   return (
     <div ref={ref}>
