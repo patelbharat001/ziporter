@@ -35,7 +35,7 @@ const organizationJsonLd = {
   name: "Ziporter",
   description:
     "Enterprise courier aggregation and logistics orchestration platform for Indian businesses.",
-  url: "https://ziporter.example.com",
+  url: "https://ziporter.com",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
